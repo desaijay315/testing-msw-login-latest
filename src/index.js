@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './bootstrap';
+import LoginFormSubmit from './components/LoginFormSubmission';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LoginFormSubmit />
   </React.StrictMode>,
   document.getElementById('root')
 );
